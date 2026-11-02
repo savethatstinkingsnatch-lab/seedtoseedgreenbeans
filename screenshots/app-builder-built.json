@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "From Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1882,
+      "bodyTextHash": "bed61c12caf1132356e63c2b2284675682e84a7d164ac44c5f0bb53ee9f69a9f",
+      "bodyTextPrefix": "From Seed to Seed Book Trellises Planner Notebook A field book o",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "From Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1882,
+      "bodyTextHash": "7d8c5d6319aeae32758101565b9f93677744ede8cd315ea357b2730e8b23e325",
+      "bodyTextPrefix": "From Seed to Seed A field book of green beans From seed to seed ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

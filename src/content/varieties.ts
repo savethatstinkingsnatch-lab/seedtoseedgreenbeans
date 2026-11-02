@@ -1,0 +1,171 @@
+export type Habit = "Bush" | "Pole" | "Half-runner";
+export type Use = "Snap" | "Filet" | "Romano" | "Shell" | "Dry" | "Dual";
+
+export type Variety = {
+  name: string;
+  habit: Habit;
+  use: Use;
+  days: number;
+  height: string;
+  seed: string;
+  notes: string;
+};
+
+export const VARIETIES: Variety[] = [
+  {
+    name: "Provider",
+    habit: "Bush",
+    use: "Snap",
+    days: 50,
+    height: "16–20 in",
+    seed: "Purple-black",
+    notes: "The early, cold-soil bean. Sets when nights are still cool. Concentrated harvest.",
+  },
+  {
+    name: "Contender",
+    habit: "Bush",
+    use: "Snap",
+    days: 55,
+    height: "16–20 in",
+    seed: "Buff, mottled",
+    notes: "Stringless, handles heat better than many bush snaps, good fresh or frozen.",
+  },
+  {
+    name: "Bush Blue Lake 274",
+    habit: "Bush",
+    use: "Snap",
+    days: 58,
+    height: "16–18 in",
+    seed: "White",
+    notes: "The canning classic. Straight, stringless pods. Holds quality if you pick on time.",
+  },
+  {
+    name: "Jade",
+    habit: "Bush",
+    use: "Snap",
+    days: 60,
+    height: "18–22 in",
+    seed: "White",
+    notes: "Long, dark, straight pods that stay slender. A tidy row and a long picking window for a bush bean.",
+  },
+  {
+    name: "Maxibel",
+    habit: "Bush",
+    use: "Filet",
+    days: 55,
+    height: "16–20 in",
+    seed: "Dark",
+    notes: "A French filet. Pick when the pod is pencil-thin. Wait two days and it is no longer a filet.",
+  },
+  {
+    name: "Roma II",
+    habit: "Bush",
+    use: "Romano",
+    days: 58,
+    height: "18 in",
+    seed: "White",
+    notes: "Flat Italian pods on a bush plant. Meaty, good sauteed. No trellis.",
+  },
+  {
+    name: "Dragon Tongue",
+    habit: "Bush",
+    use: "Dual",
+    days: 57,
+    height: "24–30 in",
+    seed: "Buff with brown streaks",
+    notes: "Pale pods brushed purple. Purple fades in the pot. Snap them young, or shell when the seeds swell.",
+  },
+  {
+    name: "Kentucky Wonder",
+    habit: "Pole",
+    use: "Snap",
+    days: 65,
+    height: "6–8 ft",
+    seed: "Brown",
+    notes: "Old Homestead. Heavy crops of meaty pods. Can develop a string if you let pods get fat. A seed-saving standard.",
+  },
+  {
+    name: "Fortex",
+    habit: "Pole",
+    use: "Filet",
+    days: 60,
+    height: "8–10 ft",
+    seed: "Dark brown",
+    notes: "Extra-long pods that stay stringless even when large. One of the most productive pole beans in a home garden.",
+  },
+  {
+    name: "Emerite",
+    habit: "Pole",
+    use: "Filet",
+    days: 60,
+    height: "6–8 ft",
+    seed: "Brown",
+    notes: "Classic French filet pole. Pick often, at a slender size, for the texture filet beans are grown for.",
+  },
+  {
+    name: "Blue Lake Pole",
+    habit: "Pole",
+    use: "Snap",
+    days: 63,
+    height: "6–8 ft",
+    seed: "White",
+    notes: "Stringless white-seeded pole bean bred from the Blue Lake canning line. Steady, not fussy.",
+  },
+  {
+    name: "Rattlesnake",
+    habit: "Pole",
+    use: "Snap",
+    days: 73,
+    height: "8–10 ft",
+    seed: "Buff with dark streaks",
+    notes: "Streaked pods, real heat and drought tolerance. Pods stay tender longer than Kentucky Wonder.",
+  },
+  {
+    name: "Helda",
+    habit: "Pole",
+    use: "Romano",
+    days: 60,
+    height: "6–8 ft",
+    seed: "White",
+    notes: "Wide, flat romano pods. Early for a pole romano. Pick before the seeds bulge if you want them sweet.",
+  },
+  {
+    name: "Mountaineer White Half-Runner",
+    habit: "Half-runner",
+    use: "Dual",
+    days: 56,
+    height: "3–4 ft",
+    seed: "White",
+    notes: "Appalachian habit. Short vines that still want a low fence. Snap them green or dry the white seed for soup.",
+  },
+  {
+    name: "Cherokee Trail of Tears",
+    habit: "Pole",
+    use: "Dual",
+    days: 85,
+    height: "8–10 ft",
+    seed: "Shiny black",
+    notes: "A Cherokee heirloom carried through removal and still grown. Young pods are a fine snap; the crop most people save is the black dry seed. Days here are to dry seed.",
+  },
+  {
+    name: "Jacob's Cattle",
+    habit: "Bush",
+    use: "Dry",
+    days: 88,
+    height: "18–24 in",
+    seed: "White with maroon",
+    notes: "Maine heirloom. Beautiful seed, excellent shelled green or fully dry. Needs the whole season to finish.",
+  },
+  {
+    name: "Black Turtle",
+    habit: "Bush",
+    use: "Dry",
+    days: 90,
+    height: "18 in",
+    seed: "Small black",
+    notes: "The soup bean. Do not pick it as a snap. Leave every pod to rattle, then thresh.",
+  },
+];
+
+export const USES = ["Snap", "Filet", "Romano", "Shell", "Dry", "Dual"] as const;
+export const HABITS = ["Bush", "Pole", "Half-runner"] as const;

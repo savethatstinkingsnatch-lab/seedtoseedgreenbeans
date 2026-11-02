@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8081/buy",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "From Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 927,
+      "bodyTextHash": "7154243b8c58394d4d7c5860cd135d20f070bdfb6825cc2b8150062bc7b873f6",
+      "bodyTextPrefix": "From Seed to Seed Book Trellises Planner Notebook Buy · $1 The b",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/buy-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "From Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 927,
+      "bodyTextHash": "3fee04d7abe0744b8a037e1ec21698aa75dc78b5cf761e69fab9f32eeb109021",
+      "bodyTextPrefix": "From Seed to Seed Buy · $1 The book From Seed to Seed by Jessica",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/buy-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/buy-built.json"
+}

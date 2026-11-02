@@ -1,0 +1,1 @@
+function e(e){let[t,n,r]=e.split(`-`).map(Number);return new Date(t??2027,(n??1)-1,r??1)}function t(e,t){let n=new Date(e.getFullYear(),e.getMonth(),e.getDate());return n.setDate(n.getDate()+t),n}function n(e){return e.toLocaleDateString(`en-US`,{month:`short`,day:`numeric`,year:`numeric`})}export{n,e as r,t};
