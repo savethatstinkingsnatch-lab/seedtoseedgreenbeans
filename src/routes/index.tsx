@@ -41,9 +41,9 @@ function Home() {
         />
       </figure>
       <div className="relative z-10 -mt-8 border border-line bg-sheet px-5 py-6 md:-mt-16 md:px-10 md:py-8">
-        <p className="text-sm tracking-wide text-pod">A field book of green beans</p>
+        <p className="text-sm tracking-wide text-pod">The Education Revolution · Volume 1</p>
         <h1 className="mt-2 max-w-3xl font-display text-4xl leading-tight text-balance md:text-6xl">
-          From seed to seed
+          Volume 1: Green Beans
         </h1>
         <p className="mt-3 text-lg">by {EDITION.author}</p>
         <p className="mt-4 max-w-2xl text-lg leading-relaxed text-pretty">

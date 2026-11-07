@@ -1,5 +1,5 @@
 export const EDITION = {
-  title: "From Seed to Seed",
+  title: "Volume 1: Green Beans",
   author: "Blue and the Awesome Dudes",
   year: 2026,
 } as const;

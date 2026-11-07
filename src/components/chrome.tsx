@@ -34,7 +34,7 @@ export function Shell({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-20 border-b border-line bg-paper/95 backdrop-blur-sm">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 md:px-8">
           <Link to="/" className="font-display text-lg leading-none text-ink">
-            From Seed to Seed
+            Volume 1: Green Beans
           </Link>
           <nav className="hidden items-center gap-1 md:flex" aria-label="Sections">
             {NAV.map((item) => {
